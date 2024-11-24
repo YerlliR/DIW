@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Acknowledgement+Medium&display=swap"
+        rel="stylesheet">
+    <title>Formulario de registro</title>
+</head>
+
+<body>
+    <form action="" method="get">
+        <h1>Reg&iacute;strate</h1>
+
+        <ul>
+            <li>
+                <label for="nombre">Tu nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required autofocus>
+            </li>
+            <li>
+                <label for="email">Tu email <br><span>(puedes separar varios con comas)</span></label><br>
+                <input type="email" name="email" id="email" required
+                    pattern="^([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})(,\s*([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}))*$"
+                    multiple> 
+            </li>
+            <li>
+                <label for="recuerdame">Recu&eacute;rdame en este equipo</label><br>
+                <input type="checkbox" name="recuerdame" id="recuerdame">
+            </li>
+            <li>
+                <label for="url">Tu direcci&oacute;n web:</label><br>
+                <input type="url" name="url" id="url">
+            </li>
+            <li>
+                <label for="password1">Tu contrase&ntilde;a:</label><br>
+                <input type="password" name="password1" required pattern="^(?=.*\S).{6,}$">
+            </li>
+            <li>
+                <label for="password2">Confirmaci&oacute;n de tu contrase&ntilde;a:</label><br>
+                <input type="password" name="password2" required pattern="^(?=.*\S).{6,}$">
+            </li>
+            <li>
+                <label for="concocimientos">Nivel de conocimientos de HTML5:</label><br>
+                <input type="range" name="concocimientos" min="1" max="10" value="5">
+            </li>
+            <li>
+                <label for="fechaInicio">Fecha de suscripci&oacute;n:</label><br>
+                <input type="date" name="fechaInicio" required>
+            </li>
+            <li>
+                <label for="cantidad">N&uacute;mero de copias de El manual de HTML5:</label><br>
+                <input type="number" name="cantidad" value="1" min="1" max="5">
+            </li>
+            <li>
+                <label for="tambienCSS3">Suscribirse tambi&eacute;n a El manual de CSS3:</label><br>
+                <input type="checkbox" name="tambienCSS3" id="tambienCSS3">
+            </li>
+            <li>
+                <button>Enviar</button>
+
+            </li>
+        </ul>
+    </form>
+</body>
+
+</html>
+
