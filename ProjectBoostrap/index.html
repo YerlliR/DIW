@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Económico</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" alt="Logo Club Económico">
+                    <span>Paiporta Economic Association</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">
+                                Eventos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="ev23.html">Eventos 2024</a></li>
+                                <li><a class="dropdown-item" href="ev24.html">Eventos 2025</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="librosRecomendados.html">Lecturas Recomendadas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Iniciar Sesión</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="signin.html">Registrarse</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="flex-grow-1">
+        <section class="hero-section">
+            <img src="img/edificioBaner.png" class="img-fluid w-100 hero-image" alt="Madrid Economic Forum">
+            <div class="hero-content" style=" background-color: rgba(0, 0, 0, 0.349);">
+                <h1 class="hero-title">Club Económico</h1>
+                <p class="lead text-light mb-4">Impulsando el conocimiento económico y el pensamiento liberal</p>
+                <a href="#about" class="btn btn-primary btn-lg">Descubre más</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-5">
+            <div class="container">
+                <div class="row mb-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="section-title">Sobre Nosotros</h2>
+                        <p class="lead">
+                            Fundado en 2024 por Sergio Ricart Alabau, el Club Económico es una asociación dedicada a la promoción y expansión del pensamiento liberal.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="feature-box">
+                            <i class="bi bi-graph-up feature-icon"></i>
+                            <h3>Educación Financiera</h3>
+                            <p>Proporcionamos herramientas y conocimientos para mejorar la toma de decisiones financieras.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature-box">
+                            <i class="bi bi-people feature-icon"></i>
+                            <h3>Networking</h3>
+                            <p>Conectamos profesionales y entusiastas de la economía para compartir ideas y experiencias.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature-box">
+                            <i class="bi bi-book feature-icon"></i>
+                            <h3>Recursos</h3>
+                            <p>Ofrecemos una amplia biblioteca de recursos, conferencias y talleres especializados.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats-section">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md-3">
+                        <div class="stat-item">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">Miembros Activos</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="stat-item">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Eventos Anuales</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="stat-item">
+                            <div class="stat-number">20+</div>
+                            <div class="stat-label">Ponentes Expertos</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="stat-item">
+                            <div class="stat-number">1000+</div>
+                            <div class="stat-label">Horas de Contenido</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Economists Section -->
+        <section class="py-5">
+            <div class="container">
+                <h2 class="section-title text-center mb-5">Nuestros Economistas Destacados</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-img-wrapper">
+                                <img src="img/bastos.jpg" class="card-img-top" alt="Miguel Anxo Bastos">
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Miguel Anxo Bastos</h5>
+                                <p class="card-text">Especialista en Economía Política y Filosofía del Derecho</p>
+                                <div class="mt-3">
+                                    <a href="#" class="btn btn-outline-primary">Ver perfil</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-img-wrapper">
+                                <img src="img/Rallo.jpg" class="card-img-top" alt="Juan Ramón Rallo">
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Juan Ramón Rallo</h5>
+                                <p class="card-text">Doctor en Economía y experto en análisis económico</p>
+                                <div class="mt-3">
+                                    <a href="#" class="btn btn-outline-primary">Ver perfil</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-img-wrapper">
+                                <img src="img/lacalle.jpg" class="card-img-top" alt="Daniel Lacalle">
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Daniel Lacalle</h5>
+                                <p class="card-text">Economista jefe en Tressis y experto en mercados financieros</p>
+                                <div class="mt-3">
+                                    <a href="#" class="btn btn-outline-primary">Ver perfil</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Upcoming Events Section -->
+        <section class="py-5 bg-light">
+            <div class="container">
+                <h2 class="section-title text-center mb-5">Próximos Eventos</h2>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center mb-3">
+                                    <i class="bi bi-calendar-event text-primary me-2 fs-4"></i>
+                                    <h5 class="card-title mb-0">Foro Económico Andorra 2024</h5>
+                                </div>
+                                <p class="card-text">Un evento internacional que reúne a economistas y empresarios destacados del habla hispana para discutir tendencias macroeconómicas e innovación.</p>
+                                <a href="ev23.html" class="btn btn-primary">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center mb-3">
+                                    <i class="bi bi-calendar-event text-primary me-2 fs-4"></i>
+                                    <h5 class="card-title mb-0">Foro Económico Madrid 2025</h5>
+                                </div>
+                                <p class="card-text">La extensión del exitoso foro de Andorra llega a Madrid, prometiendo ser un evento inolvidable con expertos líderes del mundo económico.</p>
+                                <a href="ev24.html" class="btn btn-primary">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="section-title">Mantente Informado</h2>
+                        <p class="lead mb-4">Suscríbete a nuestro boletín para recibir las últimas noticias y actualizaciones sobre eventos.</p>
+                        <form class="row g-3 justify-content-center">
+                            <div class="col-md-8">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="newsletterEmail" placeholder="correo@ejemplo.com">
+                                    <label for="newsletterEmail">Correo Electrónico</label>
+                                </div>
+                            </div>
+                            <div class="col-md-auto">
+                                <button type="submit" class="btn btn-primary btn-lg">Suscribirse</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="footer-content">
+                        <h5 class="footer-title">Club Económico</h5>
+                        <p>Promoviendo el conocimiento económico y el pensamiento liberal desde 2024.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-content">
+                        <h5 class="footer-title">Enlaces Rápidos</h5>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="ev23.html">Eventos</a></li>
+                            <li><a href="librosRecomendados.html">Lecturas Recomendadas</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-content">
+                        <h5 class="footer-title">Contacto</h5>
+                        <ul class="footer-links">
+                            <li><i class="bi bi-envelope me-2"></i>info@clubeconomico.es</li>
+                            <li><i class="bi bi-telephone me-2"></i>+34 900 123 456</li>
+                            <li><i class="bi bi-geo-alt me-2"></i>Valencia, España</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <p class="mb-0">&copy; 2024 Club Económico. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

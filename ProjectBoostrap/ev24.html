@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foro Económico Madrid</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" alt="Logo Club Económico">
+                    <span>Paiporta Economic Association</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">
+                                Eventos
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="ev23.html">Eventos 2024</a></li>
+                                <li><a class="dropdown-item" href="ev24.html">Eventos 2025</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="librosRecomendados.html">Lecturas Recomendadas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Iniciar Sesión</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="signin.html">Registrarse</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="flex-grow-1">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <img src="img/madridBanner.jpg" class="img-fluid w-100 hero-image" alt="Madrid Economic Forum">
+            <div class="hero-content">
+                <h1 class="hero-title">Foro Económico Madrid</h1>
+                <p class="lead text-light mb-4">La experiencia de Andorra llega a la capital española</p>
+                <a href="#details" class="btn btn-primary btn-lg">Descubre más</a>
+            </div>
+        </section>
+
+        <!-- Event Introduction -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="section-title">Un Nuevo Capítulo</h2>
+                        <p class="lead">Tras el éxito de las ediciones de Andorra, el evento líder en economía e innovación llega a Madrid</p>
+                    </div>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="feature-box">
+                            <i class="bi bi-graph-up-arrow feature-icon"></i>
+                            <h3>Innovación Financiera</h3>
+                            <p>Las últimas tendencias en fintech, blockchain y mercados financieros.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature-box">
+                            <i class="bi bi-lightbulb feature-icon"></i>
+                            <h3>Emprendimiento</h3>
+                            <p>Casos de éxito y oportunidades en el ecosistema emprendedor español.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature-box">
+                            <i class="bi bi-globe feature-icon"></i>
+                            <h3>Perspectiva Global</h3>
+                            <p>Análisis de tendencias económicas internacionales y su impacto local.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Event Details -->
+        <section class="bg-light py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h2 class="mb-4">Detalles del Evento</h2>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center mb-3">
+                                    <i class="bi bi-calendar-event text-primary me-3 fs-4"></i>
+                                    <div>
+                                        <h5 class="mb-0">Fecha</h5>
+                                        <p class="mb-0">20-22 de Marzo, 2025</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center mb-3">
+                                    <i class="bi bi-geo-alt text-primary me-3 fs-4"></i>
+                                    <div>
+                                        <h5 class="mb-0">Ubicación</h5>
+                                        <p class="mb-0">IFEMA Madrid, España</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-people text-primary me-3 fs-4"></i>
+                                    <div>
+                                        <h5 class="mb-0">Capacidad</h5>
+                                        <p class="mb-0">500 asistentes</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 class="mb-4">¿Por qué Asistir?</h2>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                                Networking con líderes del sector
+                            </li>
+                            <li class="list-group-item">
+                                <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                                Conferencias de expertos internacionales
+                            </li>
+                            <li class="list-group-item">
+                                <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                                Workshops y sesiones prácticas
+                            </li>
+                            <li class="list-group-item">
+                                <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                                Oportunidades de inversión
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Multimedia Section -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row justify-content-center mb-5">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="section-title">Multimedia</h2>
+                        <p class="lead">Explora el Foro Económico Madrid</p>
+                    </div>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="multimedia-wrapper p-3 h-100">
+                            <img src="img/logoMadrid.jpeg" alt="Logo del Foro Económico Madrid" class="img-fluid w-100 rounded">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="ratio ratio-16x9 h-100">
+                            <video controls class="rounded">
+                                <source src="img/andorraEconomicForum.mp4" type="video/mp4">
+                                Tu navegador no soporta el video.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-5 bg-primary text-white">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="mb-4">Reserva tu Plaza</h2>
+                        <p class="lead mb-4">Las inscripciones anticipadas ya están disponibles</p>
+                        <a href="https://madrid.economicforum.es/" target="_blank" class="btn btn-light btn-lg">Pre-registro</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="footer-content">
+                        <h5 class="footer-title">Club Económico</h5>
+                        <p>Promoviendo el conocimiento económico y el pensamiento liberal desde 2024.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-content">
+                        <h5 class="footer-title">Enlaces Rápidos</h5>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="ev23.html">Eventos</a></li>
+                            <li><a href="librosRecomendados.html">Lecturas Recomendadas</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-content">
+                        <h5 class="footer-title">Contacto</h5>
+                        <ul class="footer-links">
+                            <li><i class="bi bi-envelope me-2"></i>info@clubeconomico.es</li>
+                            <li><i class="bi bi-telephone me-2"></i>+34 900 123 456</li>
+                            <li><i class="bi bi-geo-alt me-2"></i>Valencia, España</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <p class="mb-0">&copy; 2024 Club Económico. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
