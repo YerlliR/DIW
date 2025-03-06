@@ -1,0 +1,94 @@
+$color-primario: #2875c7;
+$color-secundario: #e67e22;
+$color-texto: #333;
+$color-cita: #555;
+$color-fondo: #fff;
+
+$fuente-principal: 'Arial', sans-serif;
+$fuente-titulos: 'Georgia', serif;
+
+$tamano-titulo: 24px;
+$tamano-subtitulo: 22px;
+$tamano-regular: 16px;
+$tamano-pequeno: 14px;
+
+body {
+  font: {
+    family: $fuente-principal;
+    size: $tamano-regular;
+    weight: normal;
+  }
+  color: $color-texto;
+  background-color: $color-fondo;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+  
+  h1 {
+    color: $color-primario;
+    font: {
+      family: $fuente-titulos;
+      size: $tamano-titulo;
+      weight: bold;
+    }
+  }
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  
+  .section {
+    margin-bottom: 40px;
+    
+    h2:not(.special) {
+      color: $color-secundario;
+      font: {
+        family: $fuente-titulos;
+        size: $tamano-subtitulo;
+        weight: normal;
+      }
+      margin-top: 0;
+    }
+    
+    .special {
+      color: $color-secundario;
+      font: {
+        family: $fuente-titulos;
+        size: $tamano-subtitulo;
+        weight: normal;
+      }
+      text-decoration: underline;
+    }
+    
+    .quote {
+      font: {
+        style: italic;
+        size: $tamano-pequeno;
+      }
+      color: $color-cita;
+      margin: {
+        top: 10px;
+        bottom: 20px;
+      }
+    }
+    
+    .content {
+      text-align: justify;
+      margin-bottom: 20px;
+      
+      &::first-line {
+        font-style: italic;
+      }
+    }
+    
+    .italic {
+      font-style: italic;
+    }
+  }
+}
